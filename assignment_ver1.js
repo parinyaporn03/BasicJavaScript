@@ -22,6 +22,7 @@ function addItem() {
               name: name,
               price: itemPrice,
             });
+            console.log("เพิ่มสินค้าเรียบร้อย!");
             console.log("+--------------------------------+");
             console.table(product);
             console.log("+--------------------------------+");
